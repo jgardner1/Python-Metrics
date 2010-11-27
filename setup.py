@@ -1,15 +1,26 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1'
+version = '0.2'
 
-setup(name='Python-Metrics',
+setup(name='pymetrics',
       version=version,
       description="A metrics library to time and count what happens during a process.",
       long_description="""\
 """,
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
-      keywords='',
+      classifiers=[
+          'Development Status :: 3 - Alpha',
+          'Environment :: Web Environment',
+          'Framework :: Pylons',
+          'Intended Audience :: Developers',
+          'License :: OSI Approved :: GNU Affero General Public License v3',
+          'Natural Language :: English',
+          'Operating System :: OS Independent',
+          'Programming Language :: Python',
+          'Topic :: Software Development :: Quality Assurance',
+          'Topic :: Utilities',
+      ],
+      keywords='metrics timer',
       author='Jonathan Gardner',
       author_email='jgardner@jonathangardner.net',
       url='https://github.com/jgardner1/Python-Metrics',
