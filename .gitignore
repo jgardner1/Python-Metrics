@@ -1,0 +1,3 @@
+*.pyc
+setup.cfg
+Python_Metrics.egg-info
